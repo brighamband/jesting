@@ -1,0 +1,30 @@
+{
+  "name": "jesting",
+  "version": "1.0.0",
+  "description": "jesting - Testing out using jest",
+  "main": "add.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brighamband/jesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brighamband/jesting/issues"
+  },
+  "homepage": "https://github.com/brighamband/jesting#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3"
+  }
+}
